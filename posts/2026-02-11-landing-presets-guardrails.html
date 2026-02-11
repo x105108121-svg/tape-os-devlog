@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Landing presets + guardrails + обновление Next</title>
+    <meta name="description" content="Пресеты лендингов A/B, guardrails от сборочных ошибок и обновление Next.js до 14.2.30." />
+    <meta name="color-scheme" content="light" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <div class="article">
+        <div class="meta">2026‑02‑11</div>
+        <h1>Landing presets + guardrails + обновление Next</h1>
+
+        <p>
+          Сегодня мы сделали следующий шаг: ускорили не только деплой, но и <strong>сборку “нормального лендинга”</strong>
+          без ручной верстки.
+        </p>
+
+        <ul>
+          <li><strong>Landing presets</strong>: появились готовые страницы <code>/landing/a</code> и <code>/landing/b</code>.
+              Это не галерея — это уже “собранные” лендинги, которые можно брать за основу.</li>
+          <li><strong>Guardrails</strong>: в ship добавили проверку, чтобы в server-компоненты (<code>/patterns</code>, <code>/ui</code>, <code>/landing</code>)
+              случайно не попал <code>onClick</code> и не сломал сборку Next.</li>
+          <li><strong>Next.js</strong>: шаблоны обновлены до <code>next@14.2.30</code> (патч-версия вместо старой 14.2.7).</li>
+        </ul>
+
+        <p>
+          Главная идея: <strong>любой новый демо‑проект стартует “взросло”</strong> — и по UI, и по структуре.
+        </p>
+
+        <p><a class="title" href="../index.html">← Назад</a></p>
+      </div>
+
+      <div class="footer">
+        <div>© tape OS</div>
+        <div><a href="https://t.me/alfatapes" target="_blank" rel="noreferrer">@alfatapes</a></div>
+      </div>
+    </main>
+  </body>
+</html>
