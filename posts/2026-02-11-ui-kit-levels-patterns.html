@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>UI kit, /ui, /patterns и уровни Next.js</title>
+    <meta name="description" content="Обновление ship-шаблонов: премиальный UI kit по умолчанию, /ui, /patterns, темы и levels 1-4." />
+    <meta name="color-scheme" content="light" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <div class="article">
+        <div class="meta">2026‑02‑11</div>
+        <h1>UI kit, /ui, /patterns и уровни Next.js</h1>
+
+        <p>
+          Мы допилили ship так, чтобы <strong>любой новый деплой выглядел “взросло” по умолчанию</strong>.
+          Цель — не “красивости”, а скорость проверки идей без потери качества.
+        </p>
+
+        <ul>
+          <li><strong>UI kit</strong>: токены, типографика, карточки, кнопки, формы.</li>
+          <li><strong>/ui</strong>: галерея компонентов (чтобы собирать интерфейс как из лего).</li>
+          <li><strong>Темы</strong>: clean / premium / playful (переключатель хранит выбор).</li>
+          <li><strong>/patterns</strong>: готовые секции лендинга (hero, logos, features, proof, pricing, compare, FAQ, CTA, footer).</li>
+          <li><strong>Levels 1–4</strong>: от “лендинг+интерактив” до “product demo skeleton”.</li>
+        </ul>
+
+        <p><strong>Команды</strong> (одна и та же механика, разный уровень):</p>
+        <ul>
+          <li><code>ship/run.sh app my-demo</code> — level 1 (по умолчанию)</li>
+          <li><code>ship/run.sh app my-demo 2</code> — API + форма</li>
+          <li><code>ship/run.sh app my-demo 3</code> — Supabase (опционально)</li>
+          <li><code>ship/run.sh app my-demo 4</code> — onboarding + state + event log + export</li>
+        </ul>
+
+        <p>
+          Важно: <strong>скорость не должна делать демо “сырой заготовкой”</strong>.
+          Теперь базовые штуки (типографика, интервалы, фокус-стейты) уже на месте.
+        </p>
+
+        <p>
+          Дальше будем наращивать “маркетинг-слой” (ещё 2–3 hero‑варианта, таблицы, proof‑секции)
+          и параллельно улучшать продуктовые паттерны для level 2–4.
+        </p>
+
+        <p><a class="title" href="../index.html">← Назад</a></p>
+      </div>
+
+      <div class="footer">
+        <div>© tape OS</div>
+        <div><a href="https://t.me/alfatapes" target="_blank" rel="noreferrer">@alfatapes</a></div>
+      </div>
+    </main>
+  </body>
+</html>
